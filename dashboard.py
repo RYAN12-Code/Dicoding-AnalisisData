@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib
+matplotlib.use('Agg')  # Set a non-interactive backend for Streamlit
 import matplotlib.pyplot as plt
 import geopandas as gpd  # versi 0.13.00 with python version 3.9
 import folium
